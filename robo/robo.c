@@ -52,7 +52,7 @@ const uint EN_2_B = 19;
 
 #define ACS758 28
 float tensao_fix = 12.0f;
-float sensibilidade = 0.040f; // Sensibilidade do sensor ACS758 (40mV/A)
+float sensibilidade = 0.060f; // Sensibilidade do sensor ACS758 (60mV/A)
 float tensao = 0;
 float corrente = 0;
 float watt = 0;
