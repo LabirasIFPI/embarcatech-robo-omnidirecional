@@ -24,7 +24,7 @@ Este repositório contém o código-fonte para um robô omnidirecional controlad
 - Envio de comandos HTTP GET para monitoramento dos parâmetros obtidos pelo sensor ACS758 do robô.
 
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 ```
 /
 ├── robo/                # Código-fonte do robô omnidirecional
