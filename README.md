@@ -49,7 +49,7 @@ Este repositório contém o código-fonte para um robô omnidirecional controlad
    ```
    git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
-2. Execute a extensão do Visual Studio Code e abra o projeto na subpasta robo/
+2. Execute a extensão **Raspberry Pi Pico** do Visual Studio Code e abra o projeto na subpasta robo/
 3. Atualize as linhas 19 e 20 do código com as suas credenciais WiFi:
    ```
    #define WIFI_SSID "your_ssid" 
@@ -61,7 +61,7 @@ Este repositório contém o código-fonte para um robô omnidirecional controlad
 4. Compile o código do sistema do robô através da extensão
 5. Faça o upload do firmware para o microcontrolador
 6. Ligue o robô para verificar o seu IP na rede WiFi, e aguarde o LED acender, confirmando a conexão bem sucedida na rede WiFi. (Caso não conecte, reset o sistema)
-7. Execute a extensão do Visual Studio Code e abra o projeto na subpasta controle/
+7. Execute a extensão **Raspberry Pi Pico** do Visual Studio Code e abra o projeto na subpasta controle/
 8. Atualize as linhas 22, 23 e 27 do código com as suas devidas credenciais:
    ```
    #define WIFI_SSID "your_ssid" 
@@ -72,7 +72,7 @@ Este repositório contém o código-fonte para um robô omnidirecional controlad
    ```
 
    ```
-   #define SERVER_IP "ip_do_robo" // IP que o seu robô exibiu no display OLED após se coneectar ao WiFi configurado. 
+   #define SERVER_IP "ip_do_robo" // IP que o seu robô exibiu no display OLED após ele se conectar ao WiFi configurado. 
    ```
 9. Compile o código do sistema de controle e monitoramento remoto através da extensão
 10. Faça o upload do firmware para o microcontrolador
