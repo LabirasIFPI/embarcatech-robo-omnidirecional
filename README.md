@@ -1,7 +1,5 @@
 # OmniBot: Robô Omnidirecional e Solução IoT para Controle e Monitoramento Remoto
 
-# Robô Omnidirecional com Controle e Monitoramento Remoto via WiFi
-
 Este repositório contém o código-fonte para um robô omnidirecional controlado remotamente via WiFi, utilizando requisições HTTP. O projeto é dividido em duas partes principais:
 
 - **`robo/`**: Código-fonte do robô omnidirecional, incluindo controle de motores e comunicação com o sistema remoto.
